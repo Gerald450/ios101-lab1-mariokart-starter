@@ -188,6 +188,10 @@ class ViewController: UIViewController,
     // YOUR CODE HERE
       let kartView0Speed = Double.random(in: 0.5...5)
       translate(kart: kartView0, by: view.frame.width, animationDuration: kartView0Speed)
+      let kartView1Speed = Double.random(in: 0.5...5)
+      translate(kart: kartView1, by: view.frame.width, animationDuration: kartView0Speed)
+      let kartView2Speed = Double.random(in: 0.5...5)
+      translate(kart: kartView2, by: view.frame.width, animationDuration: kartView0Speed)
       
   }
 }
