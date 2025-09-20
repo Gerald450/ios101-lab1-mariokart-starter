@@ -187,7 +187,8 @@ class ViewController: UIViewController,
   private func raceKartsWithRandomizedSpeed() {
     // YOUR CODE HERE
       let kartView0Speed = Double.random(in: 0.5...5)
-      translate(kart: kartView0, by: view.frame.width)
+      translate(kart: kartView0, by: view.frame.width, animationDuration: kartView0Speed)
+      
   }
 }
 
